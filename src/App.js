@@ -14,10 +14,10 @@ function App() {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
-        {/* <Header /> */}    
-      </div> 
-      {/* <Brand />
-      <WhatGPT3 />
+        <Header />
+      </div>
+      <Brand />
+      {/*<WhatGPT3 />
       <Possibility />
       <Cta />
       <Blog />
@@ -27,5 +27,4 @@ function App() {
 }
 
 export default App;
-// 27.01
-// 35.55
+// 1.37.28
