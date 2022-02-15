@@ -3,15 +3,16 @@ import "./navbar.css"
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 import logo from "../../assets/logo.svg" 
 
-const Menu = () => ( 
-  <>
-    <p><a href="#home">Home</a></p>
+const Menu = () => (    
+  <>  
+    <p><a href="#home">Home</a></p>  
     <p><a href="#wpt3">What is GPT3?</a></p>
+    <p><a href="#openai">Open AI</a></p>
     <p><a href="#possibility">Possibility</a></p>
     <p><a href="#features">Features</a></p>
     <p><a href="#blog">Library</a></p>
   </>
-)
+)  
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false); 
@@ -31,7 +32,7 @@ const Navbar = () => {
         <p>Sign in</p>
         <button>Sign Up</button>
       </div>
-
+ 
       {/* mobile menu */}
       <div className="gpt3__navbar-menu">
         {toggle ?
@@ -42,7 +43,7 @@ const Navbar = () => {
                 <Menu />
                 <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
-                  <button>Sign Up</button>
+                  <button>Sign Up</button>  
                 </div>
               </div>
             </div>

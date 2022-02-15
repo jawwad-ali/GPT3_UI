@@ -1,12 +1,12 @@
 import {
   Blog,
   Features,
-  Footer,
-  Header,
+  Footer, 
+  Header, 
   Possibility,
   WhatGPT3,
 } from "./container";
-import { Article, Brand, Cta, Feature, Navbar } from "./components";
+import { Brand, Navbar } from "./components";
 import "./App.css";
 
 function App() {
@@ -17,8 +17,9 @@ function App() {
         <Header />
       </div>
       <Brand />
-      {/*<WhatGPT3 />
-      <Possibility />
+      <WhatGPT3 /> 
+      <Features />
+      {/*<Possibility />
       <Cta />
       <Blog />
       <Footer /> */}
@@ -28,3 +29,4 @@ function App() {
 
 export default App;
 // 1.37.28
+// 2.11.08
