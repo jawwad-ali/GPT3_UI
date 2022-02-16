@@ -1,14 +1,14 @@
 import {
   Blog,
   Features,
-  Footer, 
-  Header, 
+  Footer,
+  Header,
   Possibility,
   WhatGPT3,
 } from "./container";
-import { Brand, Navbar } from "./components";
+import { Brand, Navbar, Cta } from "./components";
 import "./App.css";
-
+ 
 function App() {
   return (
     <div className="App">
@@ -17,11 +17,11 @@ function App() {
         <Header />
       </div>
       <Brand />
-      <WhatGPT3 /> 
+      <WhatGPT3 />
       <Features />
-      {/*<Possibility />
+      <Possibility />
       <Cta />
-      <Blog />
+      {/*<Blog />
       <Footer /> */}
     </div>
   );
