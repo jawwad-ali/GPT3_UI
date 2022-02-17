@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           <div className="gpt3__blog-footer__bottom-groupB">
-            <div className="gpt3__blog-footer__bottom-groupB-content">
+            <div className="gpt3__blog-footer__bottom-groupB-content"> 
               <h3>Links</h3>
               <p>Overons</p> 
               <p>Counters</p> 
