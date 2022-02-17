@@ -10,8 +10,8 @@ const Menu = () => (
     <p><a href="#openai">Open AI</a></p>
     <p><a href="#possibility">Possibility</a></p>
     <p><a href="#features">Features</a></p>
-    <p><a href="#blog">Library</a></p>
-  </>
+    <p><a href="#blog">Library</a></p> 
+  </> 
 )  
 
 const Navbar = () => {

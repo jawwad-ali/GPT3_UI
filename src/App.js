@@ -8,7 +8,7 @@ import {
 } from "./container";
 import { Brand, Navbar, Cta } from "./components";
 import "./App.css";
- 
+
 function App() {
   return (
     <div className="App">
@@ -21,8 +21,8 @@ function App() {
       <Features />
       <Possibility />
       <Cta />
-      {/*<Blog />
-      <Footer /> */}
+      <Blog />
+      <Footer />
     </div>
   );
 }

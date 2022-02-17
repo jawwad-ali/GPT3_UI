@@ -1,0 +1,112 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  background: var(--color-footer);
+}
+.gpt3__blog-footer__heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.gpt3__blog-footer__heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  padding: 7rem;
+  padding-bottom: 3rem;
+}
+
+.gpt3__blog-footer button {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  background: var(--color-footer);
+
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.gpt3__blog-footer__bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10rem;
+}
+
+.gpt3__blog-footer__bottom-groupA p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+  padding-top: 1rem;
+}
+
+.gpt3__blog-footer__bottom-groupB {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gpt3__blog-footer__bottom-groupB-content h3 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.gpt3__blog-footer__bottom-groupB-content p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.gpt3__blog-footer__bottom-copyright {
+  margin-top: 4rem;
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .gpt3__blog-footer__heading {
+    /* border: 1px solid red; */
+    /* text-align: left; */
+    margin-bottom: 2rem;
+  }
+  .gpt3__blog-footer__heading h1 {
+    font-size: 45px;
+    line-height: 55px;
+    /* padding-bottom: 3rem; */
+    text-align: left;
+    padding: 1rem;
+  }
+  .gpt3__blog-footer__bottom-container,
+  .gpt3__blog-footer__bottom-groupB {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .gpt3__blog-footer__bottom-groupB-content {
+      margin:2rem 0;
+  }
+}
