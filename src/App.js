@@ -3,13 +3,13 @@ import {
   Features,
   Footer,
   Header,
-  Possibility, 
+  Possibility,
   WhatGPT3,
 } from "./container";
 import { Brand, Navbar, Cta } from "./components";
-import "./App.css"; 
+import "./App.css";
 
-function App() { 
+function App() {
   return (
     <div className="App">
       <div className="gradient__bg">

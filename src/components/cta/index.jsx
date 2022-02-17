@@ -1,7 +1,7 @@
 import React from "react";
 import "./cta.css";
 
-const cta = () => {
+const Cta = () => {
   return (
     <div className="gpt3__cta section__margin">
       <div className="gpt3__cta-content">
@@ -15,4 +15,4 @@ const cta = () => {
   );
 };
 
-export default cta;
+export default Cta;
